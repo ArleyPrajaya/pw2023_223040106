@@ -1,0 +1,60 @@
+while = selama
+for = untuk setiap
+
+
+while (kondisi){
+   aksi
+}
+
+//selama kondisi bernilai 'true'
+//aksi dilakukan dalam blok {}
+
+while (true){
+  echo "hello world!";
+}
+//looping forever
+
+$nilai_awal=1;
+white ($nilai_awal <5){
+	echo "hello world <br>";
+}
+
+//hasil akan looping, karena tidak ada increament / decrement.
+---- komponen penting ----
+
+	nilai awal
+	while (kondisi terminasi){
+	
+		aksi
+	increment / decrement		
+	
+	}
+
+--- syntax ---
+
+<?php 
+
+$nilai_awal = 1;
+echo "mulai";
+
+while($nilai_awal <=5){
+    echo "hello world <br>";
+    $nilai_awal += 1;
+    // bisa juga dipakai '$nilai_awal ++'
+}
+
+echo"selesai";
+?>
+
+
+
+
+
+----------------------
+materi for
+
+
+for ($nilai_awal=1; $nilai_awal<=10; $nilai_awal++){
+    echo "hello world $nilai_awal kali. <br>";
+
+}
