@@ -1,7 +1,7 @@
 <?php
 ob_start();
-ini_set('date.timezone','Asia/Manila');
-date_default_timezone_set('Asia/Manila');
+ini_set('date.timezone','Asia/Jakarta');
+date_default_timezone_set('Asia/Jakarta');
 session_start();
 
 require_once('initialize.php');
